@@ -2,3 +2,18 @@ title: "Dokumentasi GeoKKP"
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "light"
 search_enabled: true
+baseurl: "/docs" 
+url: "https://geokkp-gis.github.io"
+permalink: pretty
+footer_content: "Copyright &copy; 2021 Pusdatin ATR/BPN. Distributed by an MIT license.</a>"
+
+logo: "/assets/images/logoatrbpn.png"
+
+# Sort order for navigation links
+# nav_sort: case_insensitive # default, equivalent to nil
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
