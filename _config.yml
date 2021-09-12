@@ -7,7 +7,7 @@ url: "https://geokkp-gis.github.io"
 permalink: pretty
 footer_content: "Copyright &copy; 2021 Pusdatin ATR/BPN. Distributed by an MIT license.</a>"
 
-logo: "/assets/images/logoatrbpn.png"
+logo: "/assets/images/logo_manual.png"
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil

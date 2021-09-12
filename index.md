@@ -15,4 +15,4 @@ GeoKKP-GIS adalah plugin QGIS yang digunakan dalam kegiatan pemetaan pertanahan 
 
 {: .fs-6 .fw-300 }
 
----
+
