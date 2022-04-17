@@ -58,8 +58,6 @@ Berikut adalah penjelasan untuk kedua cara tersebut:
 
 Pastikan bahwa panel dan toolbar GeoKKP-GIS telah muncul pada jendela QGIS. Dengan demikian, instalasi Plugin GeoKKP-GIS telah selesai dilakukan.
 
-
-
 ### Cara kedua: Instalasi manual melalui *.zip
 
 Adapun cara kedua instalasi akan diberikan di bawah ini. Ingat bahwa **<mark>cara ini tidak perlu dilakukan jika cara pertama sudah berhasil</mark>**.
