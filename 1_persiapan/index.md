@@ -3,6 +3,7 @@ layout: default
 title: Persiapan GeoKKP-GIS
 nav_order: 2
 has_children: true
+has_toc: true
 ---
 
 # Persiapan GeoKKP-GIS
