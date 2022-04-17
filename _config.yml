@@ -1,19 +1,52 @@
+
+
 title: "Dokumentasi GeoKKP"
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
+baseurl: "/docs"
+url: "https://geokkp-gis.github.io" 
 color_scheme: "light"
 search_enabled: true
-baseurl: "/docs" 
-url: "https://geokkp-gis.github.io"
+
+
 permalink: pretty
 footer_content: "Copyright &copy; 2021 Pusdatin ATR/BPN. Distributed by an MIT license.</a>"
 
 logo: "/assets/images/logo_manual.png"
 
-# Sort order for navigation links
-# nav_sort: case_insensitive # default, equivalent to nil
+
+aux_links:
+  "Pusdatin ATR/BPN":
+    - "https://itsm.atrbpn.go.id/public/"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+
+plugins:
+  - jekyll-feed
+
 nav_sort: case_sensitive # Capital letters sorted before lowercase
-
-
-# Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
+
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

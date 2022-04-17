@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Instalasi Plugin Manual
+title: Instalasi Plugin Pendukung
 nav_order: 3
 parent: Persiapan GeoKKP-GIS
 has_children: false
