@@ -29,6 +29,10 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
+domain: geokkp-gis.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://geokkp-gis.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /docs/  
+
 
 
 # Exclude from processing.
