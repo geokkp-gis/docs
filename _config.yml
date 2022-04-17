@@ -1,7 +1,7 @@
 
 
 title: "Dokumentasi GeoKKP"
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 baseurl: "/docs"
 url: "https://geokkp-gis.github.io" 
 color_scheme: "light"
