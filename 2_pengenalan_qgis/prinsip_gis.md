@@ -9,5 +9,3 @@ has_children: false
 # Prinsip Dasar Sistem Informasi Geografis (SIG)
 
 
-
-

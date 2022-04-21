@@ -3,8 +3,9 @@ layout: default
 title: Fitur Aplikasi
 nav_order: 4
 has_children: true
+has_toc: true
 ---
 
 # Fitur Aplikasi GeoKKP-GIS
 
-Pada bagian ini kita akan membahas mengenai bagaimana memasang Plugin GeoKKP-GIS pada perangkat lunak QGIS. Sebelum itu, kita juga akan membahas mengenai antarmuka QGIS serta beberapa menu dasar QGIS yang nantinya akan sering dipakai ketika kita menggunakan plugin ini.  
+Setelah mengetahui fungsi-fungsi mendasar dari QGIS, pada bagian ini akan dibahas mengenai antarmuka dan berbagai menu yang tersedia pada GeoKKP-GIS. Menu pada GeoKKP-GIS terdiri dari menu utama (menu dan toolbar) serta bagian panel. Pembahasan di bab ini akan difokuskan pada penggunaan menu utama saja, sedangkan mengenai penggunaan panel akan dibahas lebih detil pada bab berikutnya.

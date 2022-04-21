@@ -6,8 +6,4 @@ parent: Pengenalan QGIS
 has_children: false
 ---
 
-
-
 # Penggunaan QGIS
-
-
