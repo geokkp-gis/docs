@@ -22,7 +22,7 @@ Setelah melakukan login, pengguna perlu untuk terlebih dahulu mengatur lokasi ke
 
 ## Menu Tambah Layer
 
-Mengklik ikon ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220421224612.png) yang akan memunculkan daftar layer yang dapat ditambahkan seperti berikut:
+Klik pada ikon ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220421224612.png) akan memunculkan daftar layer yang dapat ditambahkan pada QGIS seperti berikut:
 
 <img src="https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220421224748.png" title="" alt="" data-align="center">
 
