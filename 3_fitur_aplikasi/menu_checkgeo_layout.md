@@ -14,8 +14,6 @@ Pada bagian ini akan dibahas mengenai metode pengecekan topologi serta pembuatan
 
 Plugin GeoKKP-GIS menyediakan menu untuk koreksi topologi serta pengaturan otomatis untuk batas persil untuk menjaga konsistensi data bidang tanah yang terdapat pada server. Di menu utama GeoKKP-GIS, dapat ditemukan dua buah pengaturan pengecekan geometri, yaitu cek geometri dan autoadjust. 
 
-
-
 ### Menu Cek Geometri
 
 Pada dasarnya, pembuatan layer persil yang menggunakan menu penggambaran seperti yang telah dijelaskan sebelumnya akan secara otomatis menghindarkan pembuatan persil dari kesalahan topologi. Meskipun demikian, menu check geometry diberikan sebagai perangkat pengecekan topologi menyeluruh untuk menghindari kesalahan pada saat pembuatan layer persil dan layer lainnya.
@@ -80,10 +78,40 @@ Perbedaan antara kedua menu ini adalah sebagai berikut:
 
 Dengan demikian, pengguna perlu memahami kapan menu cek geometry ('reclean') digunakan serta kapan menu AutoAdjust digunakan pada saat editing.
 
-
-
 ## Menu Layoutting
 
+Menu pencetakan layout dibuat untuk mengotomatisasi pembuatan layout peta untuk peta bidang, gambar ukur, peta pendaftaran dan surat ukur. QGIS sendiri telah menyediakan fungsi layouting yang sangat fleksibel, sehingga layout yang dibuat melalui menu ini akan dapat dimodifikasi dengan mudah pada Layout Manager QGIS.
+
+Apabila menu ini dibuka, akan muncul sebagai berikut:
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220428203420.png)
+
+ Terdapat tiga buah opsi untuk membuat layout pada plugin GeoKKP-GIS. Penjelasan untuk ketiga opsi tersebut adalah sebagai berikut:
+
+1. **Layout Default**. GeoKKP-GIS telah menyediakan empat buah template default, masing-masing untuk Gambar Ukur, Surat Ukur, Peta Bidang Tanah dan Peta Pendaftaran. Dengan memilih salah satu opsi yang tersedia, pengguna dapat memperoleh tampilan layout yang sudah disusun lengkap dengan komponen-komponennya. Pada beberapa opsi seperti PBT misalnya, terdapat pilihan untuk menggunakan ukuran kertas A3 atau A4 sesuai kebutuhan.
+
+2. **Buka Layout Kustom (file *.qpt)**. Boleh jadi pada sebuah kantah digunakan jenis layout yang berbeda dengan yang telah disediakan oleh plugin GeoKKP-GIS. Untuk itu, pengguna dapat membuat sendiri atau memodifikasi layout di GeoKKP-GIS, kemudian memanggilnya di kemudian hari berdasarkan atas file tersebut
+
+3. **Buat Layout kosong baru**.  Opsi ini akan membuka sebuah halaman kosong sehingga memungkinkan pengguna untuk menambahkan berbagai elemen layout sebagaimana diperlukan
 
 
- 
+
+Berikut adalah tampilan untuk masing-masing layout default yang disediakan oleh plugin GeoKKP-GIS:
+
+* Gambar Ukur:
+  
+  ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220428204750.png)
+
+* Peta Bidang Tanah:
+  
+  ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220428205158.png)
+
+* Peta Pendaftaran:
+  
+  ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220428210725.png)
+
+* Surat Ukur:
+  
+  ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220428210527.png)
+
+
