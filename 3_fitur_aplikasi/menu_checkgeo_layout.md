@@ -94,8 +94,6 @@ Apabila menu ini dibuka, akan muncul sebagai berikut:
 
 3. **Buat Layout kosong baru**.  Opsi ini akan membuka sebuah halaman kosong sehingga memungkinkan pengguna untuk menambahkan berbagai elemen layout sebagaimana diperlukan
 
-
-
 Berikut adalah tampilan untuk masing-masing layout default yang disediakan oleh plugin GeoKKP-GIS:
 
 * Gambar Ukur:
@@ -114,4 +112,4 @@ Berikut adalah tampilan untuk masing-masing layout default yang disediakan oleh 
   
   ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220428210527.png)
 
-
+Tiap layout dapat dimodifikasi dengan mudah menggunakan layout manager dari QGIS. Dengan demikian, plugin GeoKKP-GIS menyediakan landasan awal untuk kustomisasi layout yang dapat dilakukan sendiri dengan lebih bebas oleh pengguna
