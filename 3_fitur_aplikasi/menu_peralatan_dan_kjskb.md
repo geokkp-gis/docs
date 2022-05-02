@@ -78,8 +78,6 @@ Menu ini juga akan secara otomatis mendeteksi pengaturan sistem proyeksi. Apabil
 
 ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220501011109.png)
 
-
-
 ### Menu Georeference/Rubbersheet
 
 Georeferencing adalah salah satu jenis operasi spasial yang digunakan untuk memberikan lokasi/koordinat khususnya dari objek berupa gambar. Operasi ini biasanya digunakan pada data masukan berupa gambar hasil scan yang belum memiliki informasi sistem koordinat, misalnya scan gambar ukur.
@@ -106,8 +104,6 @@ setelah pengaturan selesai, kita dapat melanjutkan dengan memilih titik dan mema
 
 Pada gambar di atas, kursor ditempatkan pada salah satu pojok persil yang terdapat pada gambar untuk menandai lokasi tersebut dengan koordinat tanah yang kita miliki. Di sini QGIS memberikan satu fungsi yang sangat berguna, yaitu mengambil koordinat dari muka peta (![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220501235047.png)). Dengan adanya tool ini, kita dapat mengenali lokasi yang terdapat pada muka peta untuk menandai lokasi yang tepat pada kanvas QGIS dengan menggunakan basemap berupa citra satelit.
 
-
-
 ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220501235650.png)
 
 Setelah itu, koordinat titik akan secara otomatis terisi pada kolom yang disediakan.
@@ -124,23 +120,17 @@ Jika kita lihat lebih detil, akan muncul garis berwarna merah yang menunjukkan n
 
 ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502000216.png)
 
-
-
 Klik pada tombol  ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502000258.png)untuk memulai transformasi. Hasil akhir dari transformasi ini adalah seperti berikut:
 
 ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502175739.png)
 
 Setelah mendapatkan gambar pada posisi yang dikehendaki, kita dapat melanjutkan dengan melakukan penggambaran seperti pada contoh sebelumnya.
 
-
-
 ### Export ke CSV
 
 Menu ini berfungsi seperti namanya, yaitu mengkonversi layer terpilih pada daftar layer menjadi file dengan format CSV. Perintah ini hanya berlaku untuk layer dengan jenis vektor, sehingga apabila layer terpilih berupa raster, akan muncul pesan kesalahan. 
 
 ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502203000.png)
-
-
 
 ### Pencarian Atribut
 
@@ -154,8 +144,6 @@ Proses pencarian fitur akan secara otomatis mengarahkan pengguna pada fitur ters
 
 ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502213340.png)
 
-
-
 ## Menu Persetujuan KJSKB
 
 Menu ini hanya terdiri dari satu sub-menu yang berfungsi untuk memberikan persetujuan atas proyek yang dikerjakan oleh Kantor Jasa Surveyor Kadaster Berlisensi (KJSKB). 
@@ -163,21 +151,3 @@ Menu ini hanya terdiri dari satu sub-menu yang berfungsi untuk memberikan perset
 ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502213857.png)
 
 Pengguna dapat mencari peta bidang berdasarkan atas nomor tanda terima yang diinputkan oleh KJSKB. Dengan demikian, operator dapat menentukan apakah Peta Batas Bidang tersebut diterima atau ditolak
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
