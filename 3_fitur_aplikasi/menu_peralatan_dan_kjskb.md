@@ -134,6 +134,44 @@ Setelah mendapatkan gambar pada posisi yang dikehendaki, kita dapat melanjutkan 
 
 
 
+### Export ke CSV
+
+Menu ini berfungsi seperti namanya, yaitu mengkonversi layer terpilih pada daftar layer menjadi file dengan format CSV. Perintah ini hanya berlaku untuk layer dengan jenis vektor, sehingga apabila layer terpilih berupa raster, akan muncul pesan kesalahan. 
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502203000.png)
+
+
+
+### Pencarian Atribut
+
+Menu pencarian atribut digunakan untuk menemukan fitur tertentu pada layer vektor yang memiliki suatu atribut tertentu pula. Sebagai contoh, kita dapat mencari persil yang memiliki nomor induk bidang tertentu. Fungsi pencarian atribut ini merupakan penyederhanaan dari fungsi serupa yang disediakan oleh **Attribute Tabel QGIS**.
+
+Menu pencarian atribut bekerja dengan sangat sederhana. Pengguna cukup memilih layer yang akan dicari, kemudian memilih diantara kolom-kolom data dari layer tersebut. Terakhir, pengguna mengetikkan nilai fitur pada kolom yang dicari.
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502213317.png)
+
+Proses pencarian fitur akan secara otomatis mengarahkan pengguna pada fitur tersebut di kanvas QGIS.
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502213340.png)
+
+
+
+## Menu Persetujuan KJSKB
+
+Menu ini hanya terdiri dari satu sub-menu yang berfungsi untuk memberikan persetujuan atas proyek yang dikerjakan oleh Kantor Jasa Surveyor Kadaster Berlisensi (KJSKB). 
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502213857.png)
+
+Pengguna dapat mencari peta bidang berdasarkan atas nomor tanda terima yang diinputkan oleh KJSKB. Dengan demikian, operator dapat menentukan apakah Peta Batas Bidang tersebut diterima atau ditolak
+
+ 
+
+
+
+
+
+
+
 
 
 
