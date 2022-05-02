@@ -42,8 +42,6 @@ Hasil pencarian lokasi berupa layer titik baru yang menunjukkan lokasi tersebut:
 
 ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220430033951.png)
 
-
-
 ### Menu Transformasi Koordinat
 
 Menu transformasi koordinat digunakan untuk melakukan konversi satu arah dari koordinat lintang-bujur (*geographic*) menuju koordinat UTM dan TM3 dari koordinat tersebut. Menu ini juga sekaligus memberikan zona UTM dan TM3 dari hasil konversi koordinat ini.
@@ -56,8 +54,6 @@ Hasil dari konversi koordinat kemudian dapat dicopy ke dalam clipboard untuk dig
 > 
 > Perlu diingat bahwa urutan data masukan adalah **Lintang, Bujur**
 
-
-
 ### Menu Zoom To XY
 
 Menu ini digunakan untuk memindahkan zoom kanvas ke lokasi tertentu apabila diketahui koordinat X dan Y dari lokasi tersebut pada sembarang sistem proyeksi. 
@@ -69,8 +65,6 @@ Pengguna cukup memasukkan koordinat x atau bujur serta y atau lintang pada kolom
 Berikut adalah contoh penggunaan menu ini pada koordinat dengan sistem proyeksi TM3:
 
 ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220430221538.png)
-
-
 
 ### Menu Gambar NLP
 
@@ -87,5 +81,65 @@ Menu ini juga akan secara otomatis mendeteksi pengaturan sistem proyeksi. Apabil
 
 
 ### Menu Georeference/Rubbersheet
+
+Georeferencing adalah salah satu jenis operasi spasial yang digunakan untuk memberikan lokasi/koordinat khususnya dari objek berupa gambar. Operasi ini biasanya digunakan pada data masukan berupa gambar hasil scan yang belum memiliki informasi sistem koordinat, misalnya scan gambar ukur.
+
+ Klik pada menu ini di GeoKKP-GIS akan memunculkan jendela Georeferencer QGIS serta dialog penambahan layer raster. Gunakan dialog ini untuk memanggil layer foto atau gambar ukur hasil scan:
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220501183313.png)
+
+Prinsip kerja dari georeferencer adalah memberikan beberapa koordinat tanah (*ground coordinate*) pada lokasi piksel yang sesuai di gambar sehingga seluruh gambar kemudian dapat di*transformasi* ke dalam posisi yang tepat. Untuk itu, sebelum melanjutkan dengan proses penambahan titik koordinat tanah sebagai titik ikat, terlebih dahulu kita lakukan pengaturan. Klik pada menu **Settings > Transformation Settings**:
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220501234400.png)
+
+terdapat tiga pengaturan yang penting:
+
+1. Jenis atau tipe transformasi. Pilih **Linear** jika orientasi dan ukuran skala gambar dengan kondisi sebenarnya di lapangan tidak jauh berbeda. Pilih **polinomial 1** untuk kasus lainnya
+
+2. Target SRS. Gunakan sistem proyeksi (CRS) yang sama seperti yang digunakan pada Project, yaitu sesuai dengan zona TM-3 di lokasi yang dimaksud
+
+3. Muat pada QGIS ketika proses selesai. Ini untuk memudahkan operasi selanjutnya di QGIS, tanpa harus memuat ulang layer yang dihasilkan oleh transformasi.
+
+setelah pengaturan selesai, kita dapat melanjutkan dengan memilih titik dan memasukkan koordinat tanahnya. Klik pada salah satu titik yang diketahui koordinatnya, kemudian masukkan koordinat tersebut pada kolom yang tersedia
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220501234839.png)
+
+Pada gambar di atas, kursor ditempatkan pada salah satu pojok persil yang terdapat pada gambar untuk menandai lokasi tersebut dengan koordinat tanah yang kita miliki. Di sini QGIS memberikan satu fungsi yang sangat berguna, yaitu mengambil koordinat dari muka peta (![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220501235047.png)). Dengan adanya tool ini, kita dapat mengenali lokasi yang terdapat pada muka peta untuk menandai lokasi yang tepat pada kanvas QGIS dengan menggunakan basemap berupa citra satelit.
+
+
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220501235650.png)
+
+Setelah itu, koordinat titik akan secara otomatis terisi pada kolom yang disediakan.
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220501235807.png)
+
+Lanjutkan pada beberapa titik yang lain. Setelah semua titik selesai, kita akan mendapatkan estimasi akurasi dari proses georeferencing yang kita lakukan dengan memeriksa nilai residu:
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502175354.png)
+
+Tabel di bagian bawah gambar tersebut menunjukkan pasangan koordinat di gambar (dalam piksel) serta koordinat tanah yang dipilih. Residual menunjukkan besaran pergeseran antara kombinasi titik-titik tanah dengan posisi titik-titik pada pixel. Setelah nilai residual ini muncul, kita dapat menjalankan transformasi untuk merubah posisi gambar ke lokasi yang tepat.
+
+Jika kita lihat lebih detil, akan muncul garis berwarna merah yang menunjukkan nilai residu:
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502000216.png)
+
+
+
+Klik pada tombol  ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502000258.png)untuk memulai transformasi. Hasil akhir dari transformasi ini adalah seperti berikut:
+
+![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220502175739.png)
+
+Setelah mendapatkan gambar pada posisi yang dikehendaki, kita dapat melanjutkan dengan melakukan penggambaran seperti pada contoh sebelumnya.
+
+
+
+
+
+
+
+
+
+
 
 
