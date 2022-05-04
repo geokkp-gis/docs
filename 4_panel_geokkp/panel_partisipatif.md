@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: Panel Partisipatif
 nav_order: 9

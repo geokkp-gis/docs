@@ -152,8 +152,6 @@ Menu ini hanya terdiri dari satu sub-menu yang berfungsi untuk memberikan perset
 
 Pengguna dapat mencari peta bidang berdasarkan atas nomor tanda terima yang diinputkan oleh KJSKB. Dengan demikian, operator dapat menentukan apakah Peta Batas Bidang tersebut diterima atau ditolak.
 
-
-
 ## Menu Pengaturan dan Bantuan
 
 Selain CAD Mode, pada bagian kanan dari menu GeoKKP juga terdapat menu pengaturan dan bantuan. Menu pengaturan digunakan secara umum pada aplikasi GeoKKP-GIS untuk mengatur beberapa konfigurasi umum aplikasi, seperti url untuk server GeoKKP serta pengaturan daftar basemap. pengguna dapat menambahkan basemap atau daftar kantor yang terdaftar, kemudian menyimpan konfigurasi tersebut pada folder lokal untuk digunakan seterusnya pada aplikasi GeoKKP-GIS.
@@ -161,5 +159,3 @@ Selain CAD Mode, pada bagian kanan dari menu GeoKKP juga terdapat menu pengatura
 ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220503051501.png)
 
 Adapun menu bantuan digunakan untuk merujuk pada halaman manual ini secara online.
-
-

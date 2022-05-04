@@ -3,8 +3,9 @@ layout: default
 title: Panel GeoKKP-GIS
 nav_order: 5
 has_children: true
+has_toc: true
 ---
 
 # Panel Kerja GeoKKP-GIS
 
-Pada bagian ini kita akan membahas mengenai bagaimana memasang Plugin GeoKKP-GIS pada perangkat lunak QGIS. Sebelumnya, kita juga akan membahas instalasi QGIS pada komputer kita. Adapun untuk plugin GeoKKP-GIS sendiri, terdapat dua macam cara yang akan dibahas: 1) Instalasi melalui plugin manager serta 2) Instalasi manual melalui folder plugin QGIS
+Panel Kerja adalah bagian utama pada GeoKKP-GIS yang digunakan untuk berhubungan dengan server GeoKKP. Panel kerja ini terdiri dari beberapa panel yang memiliki fungsi-fungsi tertentu sesuai dengan pembagian fungsi pada GeoKKP versi AutoCAD. Panel ini juga mengontrol alur aplikasi, mulai dari login sampai ke pencetakan peta bidang tanah.
