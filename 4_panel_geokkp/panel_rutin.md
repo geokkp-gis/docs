@@ -16,8 +16,6 @@ Panel Rutin diantaranya digunakan untuk pemetaan berkas bidang tanah secara spor
 > 
 > ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220509212139.png)
 
-
-
 1. Lakukan pencarian berkas yang akan dikerjakan. Pada contoh berikut, pencarian dilakukan berdasarkan atas tahun. Ketikkan angka tahun yang ingin dicari, kemudian klik tombol **Cari**:
    
    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220509212401.png)
@@ -34,7 +32,7 @@ Panel Rutin diantaranya digunakan untuk pemetaan berkas bidang tanah secara spor
    
    <img src="https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220509215729.png" title="" alt="" data-align="center">
 
-4.  Selanjutnya, kita dapat melakukan modifikasi atau editing pada berkas tersebut menggunakan menu utama GeoKKP seperti yang telah dibahas sebelumnya. Setelah selesai melakukan editing, klik pada tombol Simpan pada Panel Rutin:
+4. Selanjutnya, kita dapat melakukan modifikasi atau editing pada berkas tersebut menggunakan menu utama GeoKKP seperti yang telah dibahas sebelumnya. Setelah selesai melakukan editing, klik pada tombol Simpan pada Panel Rutin:
    
    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220509215944.png)
 
@@ -64,12 +62,14 @@ Panel Rutin diantaranya digunakan untuk pemetaan berkas bidang tanah secara spor
    
    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220510035304.png)
 
-10.  Jendela ini dapat digunakan untuk melakukan Link atau Unlink pada berkas yang akan diproses. Klik pada tombol **Link** untuk mengkaitkan isian DI-302 yang telah dibuat dan belum terikat dengan persil, atau tombol **Unlink** untuk merubah isian DI-302 yang telah terkait dengan persil:
+10. Jendela ini dapat digunakan untuk melakukan Link atau Unlink pada berkas yang akan diproses. Klik pada tombol **Link** untuk mengkaitkan isian DI-302 yang telah dibuat dan belum terikat dengan persil, atau tombol **Unlink** untuk merubah isian DI-302 yang telah terkait dengan persil:
     
     ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220510035806.png)
-    
-    
 
-11.  Klik tombol Tutup untuk menyelesaikan operasi pada persil tersebut, atau tombol Selesai untuk mengakhiri seluruh proses pada berkas Rutin
+11. Klik tombol Tutup untuk menyelesaikan operasi pada persil tersebut, atau tombol Selesai untuk mengakhiri seluruh proses pada berkas Rutin
     
     ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220510035923.png)
+    
+    Pemberitahuan bahwa proses telah selesai akan muncul pada layar QGIS:
+    
+    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220510042203.png)
