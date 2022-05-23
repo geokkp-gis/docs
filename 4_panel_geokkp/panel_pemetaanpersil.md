@@ -46,4 +46,8 @@ Panel pemetaan persil digunakan sebagai bagian dari panel lain dan berfungsi unt
    
    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220522023730.png)
 
-8. 
+8. Tanda bintang pada persil menunjukkan bahwa persil telah terdaftar pada server
+   
+   ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220523125648.png)
+   
+   
