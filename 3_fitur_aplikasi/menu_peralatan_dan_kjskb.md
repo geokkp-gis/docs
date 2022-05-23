@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Menu Peralatan dan Perizinan KJSKB
-nav_order: 5
+nav_order: 6
 parent: Fitur Aplikasi
 has_children: false
 ---

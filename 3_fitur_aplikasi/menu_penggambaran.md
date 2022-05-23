@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Menu Penggambaran dan Dimensi
-nav_order: 3
+nav_order: 4
 parent: Fitur Aplikasi
 has_children: false
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Menu Pengaturan Layer
-nav_order: 2
+nav_order: 3
 parent: Fitur Aplikasi
 has_children: false
 ---
