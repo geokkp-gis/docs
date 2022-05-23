@@ -16,8 +16,6 @@ Panel APBN digunakan untuk pemetaan proyek terkait dengan bidang tanah serta pem
 > 
 > ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220509212139.png)
 
-
-
 Panel APBN mencakup beberapa fungsi utama, yaitu pembuatan PBT baru, pencarian PBT yang sudah dibuat serta pengisian dan penyimpanan PBT. Pertama, untuk pembuatan PBT baru dapat dilakukan sebagai berikut:
 
 1. Buka Tab APBN dan klik tombol Buat Peta
@@ -31,8 +29,6 @@ Panel APBN mencakup beberapa fungsi utama, yaitu pembuatan PBT baru, pencarian P
 3. Jika pembuatan PBT sukses, akan muncul dialog berikut
    
    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220510160314.png)
-   
-   
 
 Kedua, dari PBT yang telah dibuat kemudian dapat diisikan keterangan atribut, seperti berikut:
 
@@ -44,11 +40,11 @@ Kedua, dari PBT yang telah dibuat kemudian dapat diisikan keterangan atribut, se
    
    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220511030443.png)
 
-3.  Mulai proses pembuatan bidang baru atau editing batas bidang menggunakan menu pemetaan persil. Bagian ini akan dibahas pada bab tersendiri.
+3. Mulai proses pembuatan bidang baru atau editing batas bidang menggunakan menu pemetaan persil. Bagian ini akan dibahas pada bab tersendiri.
    
    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220511031601.png)
 
-4.  Jika telah selesai melakukan editing (bidang baru atau edit bidang lama), save hasil digitasi, kemudian tekan tombol “**Simpan**” yang berada pada panel kerja APBN GeoKKP-GIS.
+4. Jika telah selesai melakukan editing (bidang baru atau edit bidang lama), save hasil digitasi, kemudian tekan tombol “**Simpan**” yang berada pada panel kerja APBN GeoKKP-GIS.
    
    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220511031706.png)
 
@@ -73,8 +69,6 @@ Kedua, dari PBT yang telah dibuat kemudian dapat diisikan keterangan atribut, se
 8. Selain itu, dapat juga dilakukan update atribut persil:
    
    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220511033037.png)
-   
-   
 
 9. Demikian pula, dapat dilakukan editing gambar ukur pada berkas tersebut:
    

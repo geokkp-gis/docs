@@ -45,9 +45,5 @@ Panel pemetaan persil digunakan sebagai bagian dari panel lain dan berfungsi unt
 7. Klik pada tombol "**Bidang Baru**" pada panel Pemetaan Persil. Klik Yes pada pertanyaan yang muncul
    
    ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220522023730.png)
-   
-   
 
 8. 
-
- 
