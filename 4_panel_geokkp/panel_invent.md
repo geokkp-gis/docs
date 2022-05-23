@@ -73,4 +73,5 @@ Sama seperti panel lainnya, penggunaan panel invent memerlukan pengaturan sistem
 14. Apabila penyimpanan berhasil, maka akan muncul pemberitahuan seperti berikut:
     
     ![](https://cdn.jsdelivr.net/gh/geokkp-gis/images@main/20220512012945.png)
+
 15. 
