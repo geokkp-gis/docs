@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Panduan Kontribusi
-nav_order: 6
+nav_order: 5
 has_children: true
 ---
 
@@ -11,9 +11,11 @@ has_children: true
 
 Untuk berkontribusi pada plugin ini, silahkan melakukan komunikasi dengan Pusdatin ATRBPN di [support.pusdatin@atrbpn.go.id](mailto:support.pusdatin@atrbpn.go.id)
 
+## 
+
 ## Prosedur untuk Release
 
-Berikut adalah tahapan untuk melakukan release versi baru.
+Berikut adalah tahapan untuk melakukan release versi baru GeoKKP-GIS.
 
 1. *Merge branch* develop ke *master*
 2. Pastikan versi di metadata.txt sudah diperbaharusi, misalnya `version=1.0.1`
