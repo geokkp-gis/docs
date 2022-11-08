@@ -2,7 +2,7 @@
 layout: default
 title: Panduan Kontribusi
 nav_order: 5
-has_children: true
+has_children: false
 ---
 
 # Panduan Kontribusi
@@ -10,8 +10,6 @@ has_children: true
 ## Pembangunan aplikasi
 
 Untuk berkontribusi pada plugin ini, silahkan melakukan komunikasi dengan Pusdatin ATRBPN di [support.pusdatin@atrbpn.go.id](mailto:support.pusdatin@atrbpn.go.id)
-
-## 
 
 ## Prosedur untuk Release
 
