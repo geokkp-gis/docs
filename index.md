@@ -17,4 +17,6 @@ Aplikasi GeoKKP digunakan oleh Kementrian Agraria dan Tata Ruang/Badan Pertanaha
 
 GeoKKP-GIS adalah plugin QGIS yang digunakan dalam kegiatan pemetaan pertanahan yang dilakukan oleh Kementrian Agraria dan Tata Ruang/Badan Pertanahan Nasional (ATR/BPN) untuk keperluan pengolahan data dan pembuatan peta dari hasil akuisisi data di lapangan. Plugin ini menduplikasi fitur-fitur pemetaan yang dimiliki oleh GeoKKP yang sebelumnya digunakan pada perangkat CAD. GeoKKP-GIS bersifat *open-source*, dengan pengembangan yang difokuskan pada kemudahan penggunaan perangkat oleh pegawai di kantor pertanahan. 
 
+
+Versi PDF dari dokumen ini dapat diunduh pada ![Link berikut](https://github.com/geokkp-gis/docs/raw/main/Manual%20GeoKKP-GIS%20-%20v1.1.8.pdf)
                                                         
